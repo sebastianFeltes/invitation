@@ -108,12 +108,12 @@ function App() {
 								<div className="w-full flex flex-row justify-center">
 									<img
 										src={corazonLogo}
-										className="w-3/4 relative z-30 corazon"
+										className="h-1/8 relative z-30 corazon"
 										alt="Jacke y Seba logo"
 									/>
 									<img
 										src={letrasLogo}
-										className="w-3/4 absolute z-50 letras"
+										className="h-1/8 absolute z-50 letras"
 										alt="Jacke y Seba logo"
 									/>
 								</div>
