@@ -1,0 +1,151 @@
+body {
+	scroll-behavior: smooth;
+}
+
+p {
+	font-family: "Caveat", cursive;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Caveat", cursive;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: italic;
+}
+.wsp {
+	font-family: "Caveat", cursive;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: italic;
+}
+th,
+td {
+	font-family: "Caveat", cursive;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.transparent {
+	background-color: transparent;
+}
+.bg-image {
+	background-image: url("./assets/bg-dry-flower.jpg");
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed; /* Fija el fondo */
+}
+
+.main-hero {
+	background-color: rgb(255, 255, 255, 0.5);
+}
+
+.titulo {
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.corazon {
+	animation: corazon 2s infinite;
+}
+@keyframes corazon {
+	0% {
+		transform: scale(0.8);
+	}
+	50% {
+		transform: scale(1.1);
+		filter: drop-shadow(0px 0px 5px #f00);
+	}
+	100% {
+		transform: scale(0.8);
+	}
+}
+
+.letras {
+	filter: drop-shadow(0 0 1px #f00);
+}
+
+.sombra {
+	animation: sombra 2s infinite;
+}
+@keyframes sombra {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.01);
+		filter: drop-shadow(0px 0px 1px #030);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.flecha {
+	animation: moverAbajoYVolver 2s infinite;
+}
+.up {
+	transform: rotate(90deg);
+}
+
+@keyframes moverAbajoYVolver {
+	0%,
+	100% {
+		transform: translateY(0); /* Posición original */
+		opacity: 0.7;
+	}
+	50% {
+		opacity: 0.5;
+		transform: scale(0.9);
+		transform: translateY(10px); /* Mover hacia abajo */
+	}
+}
+
+/* SPINNER DE CARGA*/
+.loader-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.8);
+	z-index: 1000;
+}
+
+.loader {
+	border: 8px solid #f3f3f3;
+	border-top: 8px solid #888;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
