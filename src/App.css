@@ -3,7 +3,7 @@
 }
 body {
 	scroll-behavior: smooth;
-	padding: 2px;
+	padding: 0 4px;
 	background: #fdd;
 }
 
