@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 body {
 	scroll-behavior: smooth;
 }
@@ -7,6 +10,7 @@ p {
 	font-optical-sizing: auto;
 	font-weight: 400;
 	font-style: normal;
+	padding: 2px;
 }
 
 h1,
@@ -16,6 +20,7 @@ h3 {
 	font-optical-sizing: auto;
 	font-weight: 700;
 	font-style: italic;
+	padding: 2px 0;
 }
 .wsp {
 	font-family: "Caveat", cursive;

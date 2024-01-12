@@ -87,7 +87,7 @@ function App() {
 					</div>
 
 					<div ref={section2Ref} id="section2" className="hero min-h-screen main-hero bg-customPastel">
-						<div className="hero-content text-center">
+						<div className="hero-content text-center py-2">
 							<div className="max-w-md">
 								<div className="">
 									<button
@@ -184,7 +184,7 @@ function App() {
 								<button className="flecha transform pb-4" onClick={() => handleNextClick(section4Ref)}>
 									<img className="w-8 rotate-180" src={downArrow} alt="arrow icon" />
 								</button>
-								<div className="mb-2">
+								<div className="mb-2 p-1">
 									<p className="text-2xl">
 										Nuestro mayor regalo en esa noche tan especial, será tu presencia.
 									</p>
@@ -207,12 +207,12 @@ function App() {
 								<button className="flecha transform pb-4" onClick={() => handleNextClick(section5Ref)}>
 									<img className="w-8 rotate-180" src={downArrow} alt="arrow icon" />
 								</button>
-								<h2 className="text-3xl">¿Nos confirmás tu asistencia?</h2>
+								<h2 className="text-3xl p-1">¿Nos confirmás tu asistencia?</h2>
 								<WhatsAppButton />
 								<div>
 									<Timer />
 								</div>
-								<p className="text-3xl mt-8">Jacke y Seba...</p>
+								<p className="text-3xl mt-8 p-1">Jacke y Seba...</p>
 							</div>
 						</div>
 					</div>
