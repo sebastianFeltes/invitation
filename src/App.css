@@ -3,6 +3,8 @@
 }
 body {
 	scroll-behavior: smooth;
+	padding: 2px;
+	background: #fdd;
 }
 
 p {
