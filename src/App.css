@@ -13,6 +13,7 @@ p {
 	font-weight: 400;
 	font-style: normal;
 	padding: 2px;
+	color: #000;
 }
 
 h1,
@@ -23,6 +24,7 @@ h3 {
 	font-weight: 700;
 	font-style: italic;
 	padding: 2px 0;
+	color: #000;
 }
 .wsp {
 	font-family: "Caveat", cursive;
