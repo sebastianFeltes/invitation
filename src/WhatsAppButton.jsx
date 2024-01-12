@@ -14,10 +14,10 @@ const WhatsAppButton = () => {
 
 	return (
 		<button
-			className="wsp bg-customPastel2 border border-customGreen font-semibold text-3xl p-2 rounded-3xl m-6 shadow-lg"
+			className="wsp bg-customPastel2 border-2 border-customGreen font-semibold text-3xl p-2 rounded-3xl m-6 shadow-lg"
 			onClick={handleWhatsAppClick}
 		>
-			<span className="flex flex-row sombra p-1">
+			<span className="flex flex-row sombra p-2">
 				Confirmar
 				<img className="w-8 block mr-auto ml-2" src={wspIcon} alt="" />
 			</span>

@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	color: #000;
 }
 body {
 	scroll-behavior: smooth;
@@ -38,6 +39,7 @@ td {
 	font-optical-sizing: auto;
 	font-weight: 600;
 	font-style: normal;
+	color: #000;
 }
 
 .transparent {
