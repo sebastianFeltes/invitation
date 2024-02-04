@@ -74,7 +74,7 @@ td {
 }
 
 .corazon {
-	animation: corazon 2s infinite;
+	animation: corazon 4s infinite;
 }
 @keyframes corazon {
 	0% {
@@ -82,16 +82,16 @@ td {
 	}
 	50% {
 		transform: scale(1.1);
-		filter: drop-shadow(0px 0px 5px #f00);
+		/* filter: drop-shadow(0px 0px 5px #f00); */
 	}
 	100% {
 		transform: scale(0.8);
 	}
 }
 
-.letras {
-	filter: drop-shadow(0 0 1px #f00);
-}
+/* .letras {
+	filter: drop-shadow(0 0 2px #000);
+} */
 
 .sombra {
 	animation: sombra 2s infinite;

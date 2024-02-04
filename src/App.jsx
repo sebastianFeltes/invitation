@@ -97,7 +97,7 @@ function App() {
 										<img className="w-8 rotate-180" src={downArrow} alt="arrow icon" />
 									</button>
 									<p className="text-2xl mt-4">
-										Damos el <span className="text-customRed text-2xl">SI</span>
+										Damos el <span className="text-customPastel1 text-2xl">SI</span>
 									</p>
 									<p className="text-2xl">
 										Y queremos que seas testigo de nuestra alegría en ese día tan especial. Así que
@@ -154,7 +154,7 @@ function App() {
 								<div className="mb-8">
 									<p className="text-3xl">¿Cuándo?</p>
 									<p className="text-3xl">Sábado 18 de Mayo de 2024</p>
-									<p className="text-3xl">21:00 hs</p>
+									<p className="text-3xl">20:30 hs</p>
 									<p className="text-xl">(Ser puntual)</p>
 								</div>
 								<div className="text-center flex flex-col justify-center">
