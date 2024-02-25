@@ -111,6 +111,7 @@ td {
 
 .flecha {
 	animation: moverAbajoYVolver 2s infinite;
+	height: 52px;
 }
 .up {
 	transform: rotate(90deg);
@@ -159,4 +160,23 @@ td {
 	100% {
 		transform: rotate(360deg);
 	}
+}
+
+@keyframes tooltipAnimation {
+	0%{
+		opacity: .01;
+		
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		opacity: .01;
+		
+	}
+}
+.tooltip-text{
+	/* animation: tooltipAnimation  1.5s infinite; */
+	top: -2rem;
+	color: #000;
 }
